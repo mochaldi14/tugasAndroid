@@ -1,4 +1,4 @@
-package com.example.login;
+package com.diki.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         final EditText username= (EditText) findViewById(R.id.username);
         final EditText password= (EditText) findViewById(R.id.password);
         Button button = (Button) findViewById(R.id.login);
+        Button button1 = (Button) findViewById(R.id.register);
 
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -62,6 +63,12 @@ public class MainActivity extends AppCompatActivity {
 
                             }
                         });
+            }
+        });
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+  //              Toast
             }
         });
     }

@@ -1,4 +1,4 @@
-package com.example.login;
+package com.diki.login;
 
 import android.app.Application;
 

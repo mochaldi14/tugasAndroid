@@ -1,4 +1,4 @@
-package com.diki.login;
+package com.aldi.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
